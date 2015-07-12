@@ -474,6 +474,8 @@ public class AddProcessForm extends javax.swing.JFrame {
         currentAlgorithmLabel.setText(algorithemChoosingCombo.getSelectedItem().toString());
         if (algorithemChoosingCombo.getSelectedIndex() == 1) {
             scheduler.ShortestRemainingTimeNext();
+        }else if(algorithemChoosingCombo.getSelectedIndex()==2){
+            scheduler.shortestProcessNext();
         }
         
         addProcessGUI(10, scheduler.timelist.size(), labelPanel);

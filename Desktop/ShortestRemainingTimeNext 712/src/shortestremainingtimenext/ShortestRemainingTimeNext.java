@@ -6,14 +6,6 @@
 
 package shortestremainingtimenext;
 
-import com.sun.java.swing.plaf.motif.MotifLookAndFeel;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
-import javax.swing.plaf.metal.MetalLookAndFeel;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
-
 /**
  *
  * @author Gimhani
